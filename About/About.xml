@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Close Cryptos</name>
+  <author>Neceros</author>
+  <supportedVersions>
+    <li>1.1</li>
+  </supportedVersions>
+  <packageId>neceros.closecryptos</packageId>
+	<description>Change cryptosleep caskets in a few ways, mainly to make them easier to work with. This ensures maximum funness.</description>
+</ModMetaData>
