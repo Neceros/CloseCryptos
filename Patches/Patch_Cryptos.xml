@@ -2,22 +2,22 @@
 <Patch>	
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName = "Ship_CryptosleepCasket"]/interactionCellOffset</xpath>
+		<xpath>/Defs/ThingDef[defName="Ship_CryptosleepCasket" or defName="CryptosleepCasket"]/interactionCellOffset</xpath>
 		<value>
 			<interactionCellOffset>(0,0,0)</interactionCellOffset>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationRemove">
-		<xpath>/Defs/ThingDef[defName = "Ship_CryptosleepCasket"]/placeWorkers/li[text()="PlaceWorker_HeadOnShipBeam"]</xpath>
+		<xpath>/Defs/ThingDef[defName="Ship_CryptosleepCasket"]/placeWorkers/li[text()="PlaceWorker_HeadOnShipBeam"]</xpath>
 	</Operation>
 
 	<Operation Class="PatchOperationRemove">
-		<xpath>/Defs/ThingDef[defName = "Ship_CryptosleepCasket"]/placeWorkers/li[text()="PlaceWorker_PreventInteractionSpotOverlap"]</xpath>
+		<xpath>/Defs/ThingDef[defName="Ship_CryptosleepCasket" or defName="CryptosleepCasket"]/placeWorkers/li[text()="PlaceWorker_PreventInteractionSpotOverlap"]</xpath>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/ThingDef[defName = "Ship_CryptosleepCasket"]</xpath>
+		<xpath>/Defs/ThingDef[defName = "Ship_CryptosleepCasket" or defName="CryptosleepCasket"]</xpath>
 		<value>
 			<thingCategories>
 				<li>BuildingsSpecial</li>
@@ -27,7 +27,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/ThingDef[defName = "Ship_CryptosleepCasket"]/statBases</xpath>
+		<xpath>/Defs/ThingDef[defName = "Ship_CryptosleepCasket" or defName="CryptosleepCasket"]/statBases</xpath>
 		<value>
 			<Mass>250</Mass>
 		</value>
