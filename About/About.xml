@@ -4,6 +4,7 @@
   <author>Neceros</author>
   <supportedVersions>
     <li>1.1</li>
+    <li>1.2</li>
   </supportedVersions>
   <packageId>neceros.closecryptos</packageId>
 	<description>Change cryptosleep caskets in a few ways, mainly to make them easier to work with. This ensures maximum funness.</description>
